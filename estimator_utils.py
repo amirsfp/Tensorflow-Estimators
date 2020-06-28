@@ -7,7 +7,6 @@ def input_fn(filenames, buffer_size, batch_size):
     return dataset.repeat()
 
 def make_model():
-    print('salam')_
     NUM_CLASSES = 10
     IMAGE_HEIGHT, IMAGE_WIDTH = 32, 32
     NUM_CHANNELS = 3
